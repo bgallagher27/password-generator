@@ -13,3 +13,10 @@ for(var i = 0; i <=passwordLength; i++){
 
 document.querySelector("#password").value = password;
 
+if (passwordLength < 8) {
+    alert("Please choose a length between 8 and 128");
+}
+
+if (passwordLength > 128) {
+    alert("Please choose a length between 8 and 128");
+}
