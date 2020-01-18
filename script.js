@@ -13,4 +13,3 @@ for(var i = 0; i <=passwordLength; i++){
 
 document.querySelector("#password").value = password;
 
-console.log(password);
