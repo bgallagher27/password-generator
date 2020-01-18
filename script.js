@@ -7,7 +7,7 @@ var values = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789?!@#
 
 var password = "";
 
-for(var i = 0; i <=passwordLength; i++){
+for(var i = 0; i <=passwordLength -1; i++){
     password = password + values.charAt(Math.floor(Math.random() * Math.floor(values.length - 1)));
 }
 
